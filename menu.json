@@ -1,0 +1,966 @@
+{
+ "ayar": {
+  "sloganlar": [
+   "Bereket, taze fırından sofranıza.",
+   "Un, su, tuz, bir de sabır.",
+   "Her sabah sıcacık bir başlangıç.",
+   "Tatlı bir mola, bereketli bir gün.",
+   "Elde şekil, ateşte ruh."
+  ],
+  "duyuruAktif": true,
+  "duyuru": "Siparişinizi tezgâhımızdan verebilirsiniz.",
+  "altYazi": "Afiyet olsun, bereketiniz bol olsun.",
+  "not": "Fiyatlara KDV dahildir. Kalori değerleri yaklaşık porsiyon değerleridir. Alerjiniz varsa lütfen ekibimize danışın."
+ },
+ "kategoriler": [
+  {
+   "id": "ekmek",
+   "ad": "Ekmekler",
+   "alt": "Taş fırında, ağır ağır mayalanır"
+  },
+  {
+   "id": "pogaca",
+   "ad": "Poğaça ve Börek",
+   "alt": "Sabahın en sıcak hali"
+  },
+  {
+   "id": "tuzlu",
+   "ad": "Sandviçler",
+   "alt": "Doyurucu, taze, tam kıvamında"
+  },
+  {
+   "id": "kruvasan",
+   "ad": "Kruvasanlar",
+   "alt": "Kat kat, tereyağlı, çıtır çıtır"
+  },
+  {
+   "id": "pasta",
+   "ad": "Pastalar",
+   "alt": "Her dilimde küçük bir kutlama"
+  },
+  {
+   "id": "tatli",
+   "ad": "Şerbetliler ve Sütlüler",
+   "alt": "Geleneğin tatlı hali"
+  },
+  {
+   "id": "kurabiye",
+   "ad": "Kurabiye ve Kekler",
+   "alt": "Annenin tepsisinden"
+  },
+  {
+   "id": "sicak",
+   "ad": "Sıcak İçecekler",
+   "alt": "Fırının yanına yakışır"
+  },
+  {
+   "id": "soguk",
+   "ad": "Soğuk İçecekler",
+   "alt": "Serinleten bereket"
+  }
+ ],
+ "urunler": [
+  {
+   "id": "u001",
+   "kat": "ekmek",
+   "ad": "Köy Ekmeği",
+   "acik": "Odun ateşi kokulu, kalın kabuklu geleneksel somun.",
+   "fiyat": 35,
+   "kcal": 260,
+   "alerjen": [
+    "gluten"
+   ],
+   "rozet": [],
+   "gunun": true,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u002",
+   "kat": "ekmek",
+   "ad": "Ekşi Mayalı Ekmek",
+   "acik": "36 saat dinlenen doğal maya, çıtır kabuk, yumuşak iç.",
+   "fiyat": 95,
+   "kcal": 310,
+   "alerjen": [
+    "gluten"
+   ],
+   "rozet": [
+    "imza"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u003",
+   "kat": "ekmek",
+   "ad": "Tam Buğday Ekmeği",
+   "acik": "Kepekli un, lif dolu, doyurucu.",
+   "fiyat": 45,
+   "kcal": 240,
+   "alerjen": [
+    "gluten"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u004",
+   "kat": "ekmek",
+   "ad": "Çavdar Ekmeği",
+   "acik": "Yoğun aromalı, uzun süre taze kalır.",
+   "fiyat": 60,
+   "kcal": 250,
+   "alerjen": [
+    "gluten"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u005",
+   "kat": "ekmek",
+   "ad": "Proteinli Tohum Ekmeği",
+   "acik": "Ayçiçeği, keten ve susam tohumlu, proteini yüksek.",
+   "fiyat": 110,
+   "kcal": 290,
+   "alerjen": [
+    "gluten",
+    "susam",
+    "soya",
+    "bakla"
+   ],
+   "rozet": [
+    "yeni"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u006",
+   "kat": "ekmek",
+   "ad": "Susamlı Simit",
+   "acik": "Pekmezli, bol susamlı, çıtır halkalar.",
+   "fiyat": 30,
+   "kcal": 340,
+   "alerjen": [
+    "gluten",
+    "susam"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u007",
+   "kat": "pogaca",
+   "ad": "Peynirli Poğaça",
+   "acik": "Beyaz peynirli, tereyağlı hamur.",
+   "fiyat": 45,
+   "kcal": 290,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u008",
+   "kat": "pogaca",
+   "ad": "Zeytinli Poğaça",
+   "acik": "Siyah zeytinli, kekikli, yumuşacık.",
+   "fiyat": 45,
+   "kcal": 270,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u009",
+   "kat": "pogaca",
+   "ad": "Patatesli Poğaça",
+   "acik": "Baharatlı patates harcı, dumanı üstünde.",
+   "fiyat": 45,
+   "kcal": 280,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u010",
+   "kat": "pogaca",
+   "ad": "Açma",
+   "acik": "Pofuduk, tereyağlı, sabahlık klasiği.",
+   "fiyat": 40,
+   "kcal": 320,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u011",
+   "kat": "pogaca",
+   "ad": "Haşhaşlı Çörek",
+   "acik": "Bol haşhaşlı, kıvrım kıvrım.",
+   "fiyat": 55,
+   "kcal": 340,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u012",
+   "kat": "pogaca",
+   "ad": "Su Böreği",
+   "acik": "El açması yufka, peynirli, kat kat.",
+   "fiyat": 120,
+   "kcal": 420,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [
+    "imza"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u013",
+   "kat": "pogaca",
+   "ad": "Ispanaklı Börek",
+   "acik": "Taze ıspanak, beyaz peynir, çıtır yufka.",
+   "fiyat": 120,
+   "kcal": 380,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u014",
+   "kat": "pogaca",
+   "ad": "Kıymalı Börek",
+   "acik": "Baharatlı dana kıyma, çıtır kenarlar.",
+   "fiyat": 135,
+   "kcal": 460,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u015",
+   "kat": "tuzlu",
+   "ad": "Kaşarlı Tost",
+   "acik": "Tereyağında kızarmış, bol kaşarlı.",
+   "fiyat": 110,
+   "kcal": 430,
+   "alerjen": [
+    "gluten",
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u016",
+   "kat": "tuzlu",
+   "ad": "Hardallı Tavuklu Sandviç",
+   "acik": "Izgara tavuk, marul, ev yapımı hardal sosu.",
+   "fiyat": 165,
+   "kcal": 480,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "hardal",
+    "kereviz",
+    "soya"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u017",
+   "kat": "tuzlu",
+   "ad": "Ton Balıklı Sandviç",
+   "acik": "Ton balığı, mısır, yeşillik, sade ekmek.",
+   "fiyat": 175,
+   "kcal": 460,
+   "alerjen": [
+    "gluten",
+    "yumurta",
+    "balik",
+    "hardal"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u018",
+   "kat": "tuzlu",
+   "ad": "Peynir Tabaklı Sandviç",
+   "acik": "Beyaz peynir, domates, salatalık, taze ekmek.",
+   "fiyat": 120,
+   "kcal": 390,
+   "alerjen": [
+    "gluten",
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u019",
+   "kat": "kruvasan",
+   "ad": "Sade Kruvasan",
+   "acik": "Fransız tereyağıyla kat kat açılan klasik.",
+   "fiyat": 85,
+   "kcal": 310,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [
+    "imza"
+   ],
+   "gunun": true,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u020",
+   "kat": "kruvasan",
+   "ad": "Çikolatalı Kruvasan",
+   "acik": "İçi sıcak bitter çikolata dolu.",
+   "fiyat": 95,
+   "kcal": 420,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "soya"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u021",
+   "kat": "kruvasan",
+   "ad": "Antep Fıstıklı Kruvasan",
+   "acik": "Fıstık kreması ve kavrulmuş fıstık serpintisi.",
+   "fiyat": 130,
+   "kcal": 450,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "yemis"
+   ],
+   "rozet": [
+    "yeni"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u022",
+   "kat": "kruvasan",
+   "ad": "Peynirli Kruvasan",
+   "acik": "Eriyen kaşar, tereyağlı kıvrımlar.",
+   "fiyat": 90,
+   "kcal": 380,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u023",
+   "kat": "kruvasan",
+   "ad": "Tereyağlı Brioche",
+   "acik": "Bal rengi, pamuk gibi, hafif tatlı.",
+   "fiyat": 100,
+   "kcal": 340,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u024",
+   "kat": "pasta",
+   "ad": "Çilekli Pasta",
+   "acik": "Taze çilek, vanilyalı krema, pamuk gibi kek.",
+   "fiyat": 185,
+   "kcal": 380,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [
+    "imza"
+   ],
+   "gunun": true,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u025",
+   "kat": "pasta",
+   "ad": "Frambuazlı Cheesecake",
+   "acik": "Fırınlanmış kremsi taban, ekşimsi frambuaz sosu.",
+   "fiyat": 195,
+   "kcal": 410,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u026",
+   "kat": "pasta",
+   "ad": "San Sebastian Cheesecake",
+   "acik": "Yanık kabuklu, içi akışkan, kremsi.",
+   "fiyat": 210,
+   "kcal": 480,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [
+    "imza"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u027",
+   "kat": "pasta",
+   "ad": "Tiramisu",
+   "acik": "Kahveye batırılmış kedi dili, mascarpone kreması.",
+   "fiyat": 190,
+   "kcal": 430,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u028",
+   "kat": "pasta",
+   "ad": "Profiterol",
+   "acik": "Çıtır hamur topları, sıcak çikolata sosu.",
+   "fiyat": 175,
+   "kcal": 460,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "soya"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u029",
+   "kat": "pasta",
+   "ad": "Brownie",
+   "acik": "Yoğun çikolatalı, cevizli, ortası nemli.",
+   "fiyat": 130,
+   "kcal": 390,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "yemis",
+    "soya"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u030",
+   "kat": "pasta",
+   "ad": "Limonlu Tart",
+   "acik": "Ekşi limon kreması, tereyağlı çıtır taban.",
+   "fiyat": 160,
+   "kcal": 350,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [
+    "yeni"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u031",
+   "kat": "tatli",
+   "ad": "Fıstıklı Baklava",
+   "acik": "Dört dilim, bol Antep fıstıklı, şerbeti tam kıvamında.",
+   "fiyat": 290,
+   "kcal": 520,
+   "alerjen": [
+    "gluten",
+    "yemis",
+    "sut"
+   ],
+   "rozet": [
+    "imza"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u032",
+   "kat": "tatli",
+   "ad": "Şöbiyet",
+   "acik": "Kaymaklı, fıstıklı, ince yufka kat kat.",
+   "fiyat": 220,
+   "kcal": 480,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "yemis"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u033",
+   "kat": "tatli",
+   "ad": "Fırın Sütlaç",
+   "acik": "Üstü kızarmış, pirinçli, bol sütlü.",
+   "fiyat": 110,
+   "kcal": 280,
+   "alerjen": [
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u034",
+   "kat": "tatli",
+   "ad": "Kazandibi",
+   "acik": "Karamelize tabanı ile yumuşacık.",
+   "fiyat": 125,
+   "kcal": 310,
+   "alerjen": [
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u035",
+   "kat": "tatli",
+   "ad": "Künefe",
+   "acik": "Sıcak servis edilir, telkadayıf, uzayan peynir.",
+   "fiyat": 230,
+   "kcal": 590,
+   "alerjen": [
+    "gluten",
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u036",
+   "kat": "tatli",
+   "ad": "Revani",
+   "acik": "İrmikli, limonlu şerbetli klasik.",
+   "fiyat": 100,
+   "kcal": 360,
+   "alerjen": [
+    "gluten",
+    "yumurta",
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u037",
+   "kat": "kurabiye",
+   "ad": "Tereyağlı Kurabiye",
+   "acik": "Üç adet, ağızda dağılır.",
+   "fiyat": 70,
+   "kcal": 240,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u038",
+   "kat": "kurabiye",
+   "ad": "Cevizli Kurabiye",
+   "acik": "Üç adet, iri ceviz parçalı.",
+   "fiyat": 85,
+   "kcal": 260,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "yemis"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u039",
+   "kat": "kurabiye",
+   "ad": "Un Kurabiyesi",
+   "acik": "Kavrulmuş un, bol tereyağı, toz şekerli.",
+   "fiyat": 65,
+   "kcal": 230,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u040",
+   "kat": "kurabiye",
+   "ad": "Çikolata Parçacıklı Kurabiye",
+   "acik": "Kenarı çıtır, ortası yumuşak.",
+   "fiyat": 75,
+   "kcal": 290,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "soya",
+    "yemis"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u041",
+   "kat": "kurabiye",
+   "ad": "Kayısılı Kek",
+   "acik": "Kuru kayısı, portakal kabuğu, dilim dilim.",
+   "fiyat": 90,
+   "kcal": 340,
+   "alerjen": [
+    "gluten",
+    "sut",
+    "yumurta",
+    "sulfit"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u042",
+   "kat": "sicak",
+   "ad": "Türk Kahvesi",
+   "acik": "Közde, bol köpüklü, yanında lokum.",
+   "fiyat": 70,
+   "kcal": 15,
+   "alerjen": [],
+   "rozet": [
+    "imza"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u043",
+   "kat": "sicak",
+   "ad": "Filtre Kahve",
+   "acik": "Günün çekirdeği, sade ve dengeli.",
+   "fiyat": 85,
+   "kcal": 5,
+   "alerjen": [],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u044",
+   "kat": "sicak",
+   "ad": "Latte",
+   "acik": "Sıcak süt, çift shot espresso.",
+   "fiyat": 110,
+   "kcal": 150,
+   "alerjen": [
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u045",
+   "kat": "sicak",
+   "ad": "Cappuccino",
+   "acik": "Yoğun köpük, dengeli espresso.",
+   "fiyat": 105,
+   "kcal": 120,
+   "alerjen": [
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u046",
+   "kat": "sicak",
+   "ad": "Demlik Çay",
+   "acik": "İnce belli bardakta, tavşan kanı.",
+   "fiyat": 30,
+   "kcal": 5,
+   "alerjen": [],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u047",
+   "kat": "sicak",
+   "ad": "Sahlep",
+   "acik": "Tarçınlı, kışın en güzel sarılması.",
+   "fiyat": 140,
+   "kcal": 240,
+   "alerjen": [
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u048",
+   "kat": "sicak",
+   "ad": "Sıcak Çikolata",
+   "acik": "Yoğun, kadife dokulu.",
+   "fiyat": 130,
+   "kcal": 290,
+   "alerjen": [
+    "sut",
+    "soya"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u049",
+   "kat": "soguk",
+   "ad": "Ayran",
+   "acik": "Köpüklü, bol yoğurtlu, buz gibi.",
+   "fiyat": 40,
+   "kcal": 90,
+   "alerjen": [
+    "sut"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u050",
+   "kat": "soguk",
+   "ad": "Ev Yapımı Limonata",
+   "acik": "Taze sıkılmış limon, nane yaprağı.",
+   "fiyat": 75,
+   "kcal": 110,
+   "alerjen": [],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u051",
+   "kat": "soguk",
+   "ad": "Şeftalili Buzlu Çay",
+   "acik": "Demlenmiş siyah çay, şeftali aroması.",
+   "fiyat": 70,
+   "kcal": 90,
+   "alerjen": [
+    "sulfit"
+   ],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u052",
+   "kat": "soguk",
+   "ad": "Soğuk Kahve",
+   "acik": "Buzlu, sütlü, hafif tatlı.",
+   "fiyat": 120,
+   "kcal": 140,
+   "alerjen": [
+    "sut"
+   ],
+   "rozet": [
+    "yeni"
+   ],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u053",
+   "kat": "soguk",
+   "ad": "Taze Portakal Suyu",
+   "acik": "Siparişte sıkılır, katkısız.",
+   "fiyat": 95,
+   "kcal": 120,
+   "alerjen": [],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  },
+  {
+   "id": "u054",
+   "kat": "soguk",
+   "ad": "Maden Suyu",
+   "acik": "Soğuk, gazlı, sade.",
+   "fiyat": 40,
+   "kcal": 0,
+   "alerjen": [],
+   "rozet": [],
+   "gunun": false,
+   "tukendi": false,
+   "img": ""
+  }
+ ]
+}

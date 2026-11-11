@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bereket Fırın &amp; Pastane Menü</title>
+<meta name="description" content="Bereket Fırın &amp; Pastane dijital menüsü. Taze ekmek, börek, kruvasan, pasta ve tatlılar. Alerjen ve kalori bilgisiyle.">
+<meta name="theme-color" content="#582303">
+<meta property="og:title" content="Bereket Fırın &amp; Pastane">
+<meta property="og:description" content="Bereket, taze fırından sofranıza.">
+<meta property="og:image" content="assets/og.png">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Kaushan+Script&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="ilerleme" aria-hidden="true">
+  <div class="cubuk"></div>
+  <svg id="oklava" viewBox="0 0 60 20"><rect x="12" y="4" width="36" height="12" rx="6" fill="#C57405"/><rect x="2" y="7.500" width="14" height="5" rx="2.500" fill="#E49D2C"/><rect x="44" y="7.500" width="14" height="5" rx="2.500" fill="#E49D2C"/><path d="M30 6.500v7M27 8.500l3-2 3 2M27 11.500l3-2 3 2" fill="none" stroke="#FFF8EC" stroke-width="1.200" stroke-linecap="round"/></svg>
+</div>
+
+<header class="ust">
+  <a class="marka" href="#" aria-label="Bereket Fırın ve Pastane">
+    <svg viewBox="0 0 64 56" class="sapka" aria-hidden="true"><path d="M20 38V47h24V38M16 38h32" fill="none" stroke="#582303" stroke-width="3.500" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 38C8 36 5 22 16 18c1-9 12-14 18-7 8-6 20 2 15 12 5 4 2 14-5 15" fill="none" stroke="#582303" stroke-width="3.500" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Bereket</span>
+  </a>
+  <div class="ust-sag">
+    <button class="ikon-btn" id="araBtn" aria-label="Ara"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.500" fill="none" stroke="currentColor" stroke-width="2.200"/><path d="m16 16 4.500 4.500" stroke="currentColor" stroke-width="2.200" stroke-linecap="round"/></svg></button>
+    <button class="ikon-btn" id="suzBtn" aria-label="Süz ve sırala"><svg viewBox="0 0 24 24"><path d="M4 5h16l-6 7.500V19l-4 1.500v-8z" fill="currentColor"/></svg><b id="suzSayac" hidden>0</b></button>
+  </div>
+</header>
+
+<div class="arama" id="aramaKutu" hidden>
+  <input id="aramaGiris" type="search" placeholder="Ne arıyorsunuz? Simit, baklava, latte…" autocomplete="off" enterkeyhint="search">
+  <button id="aramaKapat" class="ikon-btn" aria-label="Aramayı kapat">✕</button>
+</div>
+
+<section class="kahraman">
+  <div class="tane-alani" id="taneler" aria-hidden="true"></div>
+  <button class="logo-btn" id="logoBtn" aria-label="Logo, dokunun">
+    <img src="assets/logo.png" alt="Bereket Fırın ve Pastane" width="1100" height="733" fetchpriority="high">
+  </button>
+  <p class="slogan" id="slogan" aria-live="polite"></p>
+  <div class="taze"><span class="nabiz"></span> Fırından yeni çıktı<span class="buhar" aria-hidden="true"><i></i><i></i><i></i></span></div>
+</section>
+
+<div class="duyuru" id="duyuru" hidden></div>
+
+<section class="gunun" id="gununBolum" hidden>
+  <div class="gunun-baslik"><span class="rozet-yazi">Günün Bereketi</span><h2>Bugün fırından ilk bunlar çıktı</h2></div>
+  <div class="gunun-seri" id="gununSeri"></div>
+</section>
+
+<nav class="kategoriler" id="kategoriler" aria-label="Kategoriler"></nav>
+
+<main id="menu"></main>
+
+<section class="alerjen-bolum" id="alerjenBolum">
+  <p class="script">Alerjiniz mi var?</p>
+  <h2>Alerjen rehberi</h2>
+  <p class="alerjen-not">Bir simgeye dokunun, o içeriği barındıran ürünleri menüden gizleyelim.</p>
+  <div class="alerjen-izgara" id="alerjenIzgara"></div>
+</section>
+
+<footer class="alt">
+  <svg viewBox="0 0 120 24" class="ayrac" aria-hidden="true"><path d="M4 12h42M74 12h42" stroke="#E49D2C" stroke-width="1.500" stroke-linecap="round"/><g fill="#E49D2C"><ellipse cx="60" cy="6" rx="2.200" ry="4.200"/><ellipse cx="53.500" cy="11" rx="2.100" ry="4" transform="rotate(-40 53.500 11)"/><ellipse cx="66.500" cy="11" rx="2.100" ry="4" transform="rotate(40 66.500 11)"/><ellipse cx="54.500" cy="17.500" rx="2" ry="3.800" transform="rotate(-40 54.500 17.500)"/><ellipse cx="65.500" cy="17.500" rx="2" ry="3.800" transform="rotate(40 65.500 17.500)"/></g></svg>
+  <p class="afiyet script" id="altYazi"></p>
+  <p class="not" id="not"></p>
+  <p class="imza-yazi">Bereket Fırın &amp; Pastane</p>
+</footer>
+
+<!-- süz ve sırala paneli -->
+<div class="ortu" id="ortu" hidden></div>
+<aside class="panel" id="panel" hidden aria-label="Süz ve sırala">
+  <div class="tutamac"></div>
+  <h3>Size göre menü</h3>
+  <h4>Şunları içermesin</h4>
+  <div class="chip-izgara" id="haricChip"></div>
+  <h4>Sıralama</h4>
+  <div class="siralama" id="siralama">
+    <button data-s="varsayilan" class="secili">Menü sırası</button>
+    <button data-s="fiyatArtan">Fiyat artan</button>
+    <button data-s="fiyatAzalan">Fiyat azalan</button>
+    <button data-s="kaloriAz">Kalori az</button>
+  </div>
+  <h4>En fazla kalori: <span id="kcalDeger">Sınırsız</span></h4>
+  <input type="range" id="kcalAralik" min="100" max="600" step="50" value="600">
+  <div class="panel-alt">
+    <button class="ikincil" id="suzTemizle">Temizle</button>
+    <button class="birincil" id="suzUygula">Sonuçları gör</button>
+  </div>
+</aside>
+
+<div class="bildirim" id="bildirim" role="status" aria-live="polite"></div>
+
+<script src="allergens.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
